@@ -17,7 +17,9 @@ Copy one or more Nginx template config files from the Template directory
 
 edit factom.conf and follow commented instructions
 
-If you don't want to expose ports 80 and 443, then you need to edit the ssl.sh file and use an alternative method of verification.
+If you don't want to expose ports 80 and 443, then you need to copy and edit the ssl.sh file and use an alternative method of verification.
+
+    cp Template/ssl.sh .
 
 **Buid**
 
